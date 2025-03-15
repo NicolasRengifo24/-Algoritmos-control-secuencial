@@ -4,12 +4,15 @@ requiere que calcule y muestre el porcentaje de descuento que le ha sido aplicad
 public class precioDeVenta {
     public static void main(String[] args) {
         
-      int precioFinal = 100000;
+      int precioFinal = 200000;
       int pvp = 80000;
+      int descuento =(precioFinal - pvp) * 100 / precioFinal;
       
-      int descuento = (int) ((pvp * 100)/precioFinal);
+      
 
-      System.out.println(descuento);
+      System.out.println(descuento + "%");
+
+
 
     }
 }
