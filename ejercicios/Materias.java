@@ -1,12 +1,15 @@
+package ejercicios;
 /*Calcule y muestre, a un alumno, cuál será su promedio general en las tres materias más difíciles que
 cursa y cuál será el promedio que obtendrá en cada una de ellas. Estas materias se evalúan como se
 muestra a continuación:
 Matemática Examen 90% y 10% del promedio de tres tareas.
 Física Examen 80% y 20% del promedio de dos tareas.
 Química Examen 85% y 15% del promedio de tres tareas. */
+
 import java.util.Scanner;
-public class materias {
-    public static void main (String [] args){
+
+public class Materias {
+    public  void ejecutar(){
 
         float  examenMat,examenFis,examenQuim,notaMat1 ,notaMat2,notaMat3, notaFis1,notaFis2,notaQuim1,notaQuim2,notaQuim3, promMat,promFis,promQuim;
         Scanner entrada = new Scanner(System.in); 

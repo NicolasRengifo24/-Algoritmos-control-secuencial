@@ -1,3 +1,4 @@
+package ejercicios;
 /*En un hospital rural existen tres áreas: Ginecología, Pediatría y Traumatología. El presupuesto anual
 del hospital se reparte conforme a la siguiente tabla:
 
@@ -13,8 +14,8 @@ import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class hospital {
-    public static void main(String[] args) {
+public class Hospital {
+    public void ejecutar(){
         
         float ginecología,traumatología,pediatría,presupuesto;
 

@@ -1,3 +1,4 @@
+package  ejercicios;
 /*  
     aX + bY = c
     dX + eY = f 
@@ -9,8 +10,8 @@
     
 */
 
-public class ecuacion {
-    public static void main(String[] args) {
+public class Ecuacion {
+    public  void ejecutar() {
     
         double a = 5, b = 4,d = 7;
         double e= 3, c = 20, f = 10;

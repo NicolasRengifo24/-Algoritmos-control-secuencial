@@ -1,4 +1,4 @@
-
+package ejercicios;
 import java.util.Scanner;
 
 /*Un alumno desea saber cuál será su calificación final en la materia de computación. Dicha calificación
@@ -7,8 +7,8 @@ se compone de los siguientes porcentajes: 55% del promedio de sus tres calificac
 
 
 
-public class alumno {
-    public static void main (String[] args){
+public class Alumno {
+    public  void ejecutar(){
 
         float cal1,cal2,cal3,promedio;
         float examen , trabajo;
@@ -47,4 +47,7 @@ public class alumno {
 
 
     }
+   
+
 }
+

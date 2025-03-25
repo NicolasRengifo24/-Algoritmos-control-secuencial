@@ -1,3 +1,4 @@
+package ejercicios;
 /*Suponga que a partir de una Tonelada de maíz una planta productora obtiene M kilogramos de
 harina y N litros de aceite. La planta vende cada bulto de 24 paquetes de un kilogramo de harina en
 Bs. B1 y cada caja de 15 envases de aceite en Bs. B2. Suponiendo que la planta vende todo lo que
@@ -6,8 +7,8 @@ kilogramo de harina y cada litro de aceite que restan del embalaje se venden al 
 Bs. B3 y Bs. B4 respectivamente. Pruebe su algoritmo o programa con los sig. Valores: M=452,
 N=197, B1=132, B2= 180, B3= 7,50 y B4= 14,50. Respuesta: 4895 */
 
-public class plantaProductora {
-    public static void main(String[] args) {
+public class PlantaProductora {
+    public void ejecutar() {
         
        double m = 452, n = 197, b1 = 132,b2=180;
        double b3 = 7.50, b4 = 14.50; 

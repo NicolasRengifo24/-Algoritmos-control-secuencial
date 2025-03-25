@@ -1,10 +1,11 @@
+package ejercicios;
 /*Calcular y mostrar el monto total a pagar en un mes de luz eléctrica, teniendo como dato la lectura
 anterior, la lectura actual y el costo por kilovatio. */
 import java.util.Locale;
 import java.text.NumberFormat;
 
-public class luzelectrica {
-    public static void main(String[] args) {
+public class Luzelectrica {
+    public  void ejecutar() {
         
         NumberFormat formateo = NumberFormat.getInstance(Locale.getDefault());
 

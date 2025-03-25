@@ -1,8 +1,9 @@
+package ejercicios;
 /*Dada una cantidad en metros, se requiere que la convierta a pies y pulgadas, considerando lo
 siguiente: 1 metro = 39.27 pulgadas; 1 pie = 12 pulgadas. */
 
-public class metros {
-    public static void main(String[] args) {
+public class Metros {
+    public void ejecutar() {
         
         int metros = 10;
         float pie = (float) (39.27 / 12);

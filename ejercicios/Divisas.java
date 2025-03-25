@@ -1,3 +1,4 @@
+package ejercicios;
 /*El cambio de divisas en la bolsa de Madrid el 25/08/1987 fue el siguiente
 100 chelines austríacos = 956.871 pesetas
  1 dólar EEUU = 122.499 pesetas
@@ -11,8 +12,8 @@ cantidad en dracmas griegos e imprima su equivalente en francos franceses. Final
 cantidad en pesetas e imprima su equivalente en dólares y liras italianas.*/
 import java.util.Scanner;
 
-public class divisas {
-    public static void main(String[] args) {
+public class Divisas {
+    public void ejecutar() {
         float chelines = (float) (956.871 / 100);
         float dragmaxFranco = (float) 22.695;
          /*calculo de dragmas a pesetas
